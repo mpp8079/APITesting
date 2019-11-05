@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="5CG74245MX" name="com.midtier.testcases.GetAvailability" tests="1" failures="0" timestamp="4 Nov 2019 22:30:36 GMT" time="2.316" errors="0">
+  <testcase name="getAvailability" time="2.304" classname="com.midtier.testcases.GetAvailability"/>
+</testsuite>

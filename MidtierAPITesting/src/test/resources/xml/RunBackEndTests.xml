@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RunBackEndTests" preserve-order="true">
+	<test name="RunBackEndTests">
+		<classes>
+			<class name="com.midtier.api.Basic" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 

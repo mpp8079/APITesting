@@ -1,0 +1,29 @@
+<availabilityRequest>
+               <account>
+                   <accountNumber>0886804995</accountNumber>
+                   <countryCode>US</countryCode>
+                   <postalCode>39208-3400</postalCode>
+               </account>
+               <orderNumber>1358597002</orderNumber>
+               <completeDeliveryFlag>Y</completeDeliveryFlag>
+               <distChannel>10</distChannel>
+               <splitResponseLineFlag>Y</splitResponseLineFlag>
+               <processLineLevelFlag></processLineLevelFlag>
+               <unifiedOrlFlag></unifiedOrlFlag>
+               <genMessageFlag>Y</genMessageFlag>
+               <analyticsFlag>1</analyticsFlag>
+               <analyticsFormat>xml</analyticsFormat>
+        <line>
+      <itemLineNo>000010</itemLineNo>
+      <itemBranchId></itemBranchId>
+      <itemNumber>24ET78</itemNumber>
+      <quantity>1</quantity>
+      <deliveryMethod>SH</deliveryMethod>
+      <availableQuantity></availableQuantity>
+   </line>
+          
+               <platformIndicator>1</platformIndicator>
+               <salesOffice>491</salesOffice>
+               <salesOrg>003</salesOrg>
+               <formatTextFlag></formatTextFlag>
+</availabilityRequest>

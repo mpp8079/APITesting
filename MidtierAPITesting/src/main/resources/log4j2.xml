@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+	<Properties>
+		<Property name="basePath">C:\local\Workplace_luv2code\MidtierAPITesting\src\main\resources\</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="File" filename="${basePath}/logs.log" filepattern="${basePath}\prints-%d{YYYYMMddHHmmss}-logs.log">
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %msg%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="100 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %msg%n" />
+		</Console>
+	</Appenders>
+
+
+	<Loggers>
+		<Root level="trace">
+		<AppenderRef ref="File" />
+			<AppenderRef ref="Console" />
+			
+		</Root>
+	</Loggers>
+	
+	
+</Configuration>
